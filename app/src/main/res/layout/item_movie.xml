@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_common_padding">
+
+    <androidx.cardview.widget.CardView
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/default_common_padding">
+
+        <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/iv_movie_banner"
+                android:layout_width="@dimen/movie_card_img_width"
+                android:layout_height="@dimen/movie_card_img_height"
+                android:scaleType="fitXY"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_movie_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lines="2"
+            android:maxLines="2"
+            android:layout_marginTop="@dimen/margin_5"
+            android:ellipsize="end"/>
+
+</LinearLayout>
+

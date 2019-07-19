@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Movies App</string>
+    <string name="error_api">ERROR !! Tap to retry.</string>
+    <string name="error_network">ERROR !! Network connectivity failed. Please check your internet connection.</string>
+</resources>
